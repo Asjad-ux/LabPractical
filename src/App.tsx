@@ -29,7 +29,7 @@ import PrismExperiment from "./pages/experiments/prism.jsx"
 import SemiconductorExperiment from "./pages/experiments/semiconductor.jsx"
 import FunctionalGroupExperiment from "./pages/experiments/functionalgroups";
 import AcidBaseTitrationExperiment12 from "./pages/experiments/AcidBaseTitrationExperiment12.tsx";
-
+import { Analytics } from "@vercel/analytics/react";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -130,5 +130,6 @@ const App = () => (
     </TooltipProvider>
   </QueryClientProvider>
 );
+<Analytics />
 
 export default App;
