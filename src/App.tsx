@@ -41,7 +41,7 @@ const App = () => (
       <Sonner />
 
       <BrowserRouter>
-      <ScrollToHashElement />
+        <ScrollToHashElement />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/overview" element={<Overview />} />
@@ -127,9 +127,9 @@ const App = () => (
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
+      <Analytics />
     </TooltipProvider>
   </QueryClientProvider>
 );
-<Analytics />
 
 export default App;
