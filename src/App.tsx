@@ -39,6 +39,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
+      <Analytics />
 
       <BrowserRouter>
       <ScrollToHashElement />
@@ -130,6 +131,5 @@ const App = () => (
     </TooltipProvider>
   </QueryClientProvider>
 );
-<Analytics />
 
 export default App;
