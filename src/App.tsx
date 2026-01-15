@@ -4,7 +4,6 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ScrollToHashElement from "./components/ScrollToHashElement.tsx"
-import ReactGA from "react-ga"
 
 import Index from "./pages/Index";
 import Overview from "./pages/Overview";
@@ -33,8 +32,6 @@ import AcidBaseTitrationExperiment12 from "./pages/experiments/AcidBaseTitration
 import { Analytics } from "@vercel/analytics/react";
 import NotFound from "./pages/NotFound";
 
-const TRACKING_ID = "G-MBWK7ZQC68";
-ReactGA.initialize(TRACKING_ID)
 
 const queryClient = new QueryClient();
 
