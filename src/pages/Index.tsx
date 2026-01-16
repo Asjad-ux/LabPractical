@@ -127,7 +127,6 @@ const Index = () => {
                   <div className="text-3xl font-bold">2</div>
                   <div className="text-sm text-muted-foreground">Subjects</div>
                 </div>
-                <div className="w-px bg-border" />
               </div>
             </div>
             
