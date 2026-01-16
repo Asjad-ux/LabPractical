@@ -43,7 +43,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="mt-20 grid md:grid-cols-3 gap-6 opacity-0 animate-fade-in animation-delay-200">
+          <div className="mt-20 grid md:grid-cols-2 gap-6 max-w-2xl mx-auto opacity-0 animate-fade-in animation-delay-200">
             <div className="p-6 bg-card border border-border rounded-xl text-center">
               <div className="text-4xl font-bold mb-2">2+</div>
               <div className="text-sm text-muted-foreground">Years of Experience</div>
