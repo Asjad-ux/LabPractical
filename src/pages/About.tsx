@@ -49,12 +49,8 @@ const About = () => {
               <div className="text-sm text-muted-foreground">Years of Experience</div>
             </div>
             <div className="p-6 bg-card border border-border rounded-xl text-center">
-              <div className="text-4xl font-bold mb-2">50+</div>
+              <div className="text-4xl font-bold mb-2">20+</div>
               <div className="text-sm text-muted-foreground">Experiments Covered</div>
-            </div>
-            <div className="p-6 bg-card border border-border rounded-xl text-center">
-              <div className="text-4xl font-bold mb-2">1000+</div>
-              <div className="text-sm text-muted-foreground">Students Helped</div>
             </div>
           </div>
         </div>
