@@ -119,19 +119,15 @@ const Index = () => {
               {/* Stats */}
               <div className="flex gap-8 pt-8 opacity-0 animate-fade-in animation-delay-400">
                 <div>
-                  <div className="text-3xl font-bold">50+</div>
+                  <div className="text-3xl font-bold">20+</div>
                   <div className="text-sm text-muted-foreground">Experiments</div>
                 </div>
                 <div className="w-px bg-border" />
                 <div>
-                  <div className="text-3xl font-bold">4</div>
+                  <div className="text-3xl font-bold">2</div>
                   <div className="text-sm text-muted-foreground">Subjects</div>
                 </div>
                 <div className="w-px bg-border" />
-                <div>
-                  <div className="text-3xl font-bold">100%</div>
-                  <div className="text-sm text-muted-foreground">Exam Aligned</div>
-                </div>
               </div>
             </div>
             
